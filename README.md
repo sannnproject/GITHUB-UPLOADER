@@ -24,6 +24,34 @@
 
 </p>
 
+<p align="center">
+
+<a href="https://github.com/sannnproject/GITHUB-UPLOADER/stargazers">
+<img src="https://img.shields.io/github/stars/sannnproject/GITHUB-UPLOADER?style=social">
+</a>
+
+<a href="https://github.com/sannnproject/GITHUB-UPLOADER/network/members">
+<img src="https://img.shields.io/github/forks/sannnproject/GITHUB-UPLOADER?style=social">
+</a>
+
+<a href="https://github.com/sannnproject/GITHUB-UPLOADER/issues">
+<img src="https://img.shields.io/github/issues/sannnproject/GITHUB-UPLOADER">
+</a>
+
+<a href="https://github.com/sannnproject/GITHUB-UPLOADER/pulls">
+<img src="https://img.shields.io/github/issues-pr/sannnproject/GITHUB-UPLOADER">
+</a>
+
+<a href="https://github.com/sannnproject/GITHUB-UPLOADER/commits/main">
+<img src="https://img.shields.io/github/last-commit/sannnproject/GITHUB-UPLOADER">
+</a>
+
+<a href="https://github.com/sannnproject/GITHUB-UPLOADER/blob/main/LICENSE">
+<img src="https://img.shields.io/github/license/sannnproject/GITHUB-UPLOADER">
+</a>
+
+</p>
+
 ---
 
 ## 📖 Deskripsi
