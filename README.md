@@ -9,12 +9,6 @@
 <img src="https://img.shields.io/badge/TailwindCSS-4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white">
 <img src="https://img.shields.io/badge/GitHub-REST%20API-181717?style=for-the-badge&logo=github">
 <img src="https://img.shields.io/badge/Deploy-Vercel-black?style=for-the-badge&logo=vercel">
-<img src="https://img.shields.io/badge/Dark%20Mode-Supported-black?style=for-the-badge">
-<img src="https://img.shields.io/badge/Responsive-Mobile%20Friendly-blue?style=for-the-badge">
-<img src="https://img.shields.io/badge/ZIP-Auto%20Extract-orange?style=for-the-badge">
-<img src="https://img.shields.io/badge/Database-Not%20Required-blueviolet?style=for-the-badge">
-<img src="https://img.shields.io/badge/Storage-IndexedDB-4CAF50?style=for-the-badge">
-<img src="https://img.shields.io/badge/License-Apache%202.0-blue?style=for-the-badge">
 
 </p>
 
