@@ -35,19 +35,19 @@
 </a>
 
 <a href="https://github.com/sannnproject/GITHUB-UPLOADER/issues">
-<img src="https://img.shields.io/github/issues/sannnproject/GITHUB-UPLOADER">
+<img src="https://img.shields.io/github/issues/sannnproject/GITHUB-UPLOADER?style=flat-square">
 </a>
 
 <a href="https://github.com/sannnproject/GITHUB-UPLOADER/pulls">
-<img src="https://img.shields.io/github/issues-pr/sannnproject/GITHUB-UPLOADER">
+<img src="https://img.shields.io/github/issues-pr/sannnproject/GITHUB-UPLOADER?style=flat-square">
 </a>
 
 <a href="https://github.com/sannnproject/GITHUB-UPLOADER/commits/main">
-<img src="https://img.shields.io/github/last-commit/sannnproject/GITHUB-UPLOADER">
+<img src="https://img.shields.io/github/last-commit/sannnproject/GITHUB-UPLOADER?style=flat-square">
 </a>
 
 <a href="https://github.com/sannnproject/GITHUB-UPLOADER/blob/main/LICENSE">
-<img src="https://img.shields.io/github/license/sannnproject/GITHUB-UPLOADER">
+<img src="https://img.shields.io/github/license/sannnproject/GITHUB-UPLOADER?style=flat-square">
 </a>
 
 </p>
