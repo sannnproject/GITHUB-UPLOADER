@@ -210,16 +210,6 @@ Project ini telah dikonfigurasi agar dapat langsung di-deploy ke Vercel tanpa ko
 
 ---
 
-## Requirements
-
-Pastikan lingkungan pengembangan memenuhi persyaratan berikut:
-
-- Node.js 20 atau lebih baru
-- npm / pnpm / bun
-- GitHub Personal Access Token (PAT)
-
----
-
 ## Browser Compatibility
 
 GitHub Uploader mendukung browser modern berikut:
@@ -334,7 +324,7 @@ Selengkapnya: https://www.apache.org/licenses/LICENSE-2.0
 
 ## 👨‍💻 Author
 
-**SANN Project**
+**SANN GROUP**
 
 Membangun berbagai tools open source modern untuk membantu developer, mempermudah deployment, dan meningkatkan produktivitas workflow.
 
@@ -344,6 +334,6 @@ Membangun berbagai tools open source modern untuk membantu developer, mempermuda
 
 ⭐ **Jangan lupa berikan Star jika project ini bermanfaat!**
 
-Made with ❤️ by **SANN Project**
+Made with ❤️ by **SANN GROUP**
 
 </p>
