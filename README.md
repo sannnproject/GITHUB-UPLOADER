@@ -1,4 +1,4 @@
-# 🚀 GitHub Uploader
+# 📂 GitHub Uploader Manager
 
 <p align="center">
 
