@@ -14,7 +14,7 @@
 <img src="https://img.shields.io/badge/ZIP-Auto%20Extract-orange?style=for-the-badge">
 <img src="https://img.shields.io/badge/Database-Not%20Required-blueviolet?style=for-the-badge">
 <img src="https://img.shields.io/badge/Storage-IndexedDB-4CAF50?style=for-the-badge">
-<img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge">
+<img src="https://img.shields.io/badge/License-Apache%202.0-blue?style=for-the-badge">
 
 </p>
 
@@ -26,43 +26,15 @@ Modern • Fast • Secure • Open Source
 
 </p>
 
-<p align="center">
-
-<a href="https://github.com/sannnproject/GITHUB-UPLOADER/stargazers">
-<img src="https://img.shields.io/github/stars/sannnproject/GITHUB-UPLOADER?style=social">
-</a>
-
-<a href="https://github.com/sannnproject/GITHUB-UPLOADER/network/members">
-<img src="https://img.shields.io/github/forks/sannnproject/GITHUB-UPLOADER?style=social">
-</a>
-
-<a href="https://github.com/sannnproject/GITHUB-UPLOADER/issues">
-<img src="https://img.shields.io/github/issues/sannnproject/GITHUB-UPLOADER">
-</a>
-
-<a href="https://github.com/sannnproject/GITHUB-UPLOADER/pulls">
-<img src="https://img.shields.io/github/issues-pr/sannnproject/GITHUB-UPLOADER">
-</a>
-
-<a href="https://github.com/sannnproject/GITHUB-UPLOADER/commits/main">
-<img src="https://img.shields.io/github/last-commit/sannnproject/GITHUB-UPLOADER">
-</a>
-
-<a href="https://github.com/sannnproject/GITHUB-UPLOADER/blob/main/LICENSE">
-<img src="https://img.shields.io/github/license/sannnproject/GITHUB-UPLOADER">
-</a>
-
-</p>
-
 ---
 
 ## 📖 Deskripsi
 
-GitHub Uploader adalah aplikasi web open source yang memudahkan proses upload source code ke repository GitHub tanpa perlu menggunakan Git CLI. Pengguna cukup memasukkan **GitHub Personal Access Token (PAT)**, memilih repository, lalu mengunggah file, folder, atau ZIP.
+GitHub Uploader adalah aplikasi web open source yang memudahkan proses upload source code ke repository GitHub tanpa perlu menggunakan Git CLI. Pengguna cukup memasukkan GitHub Personal Access Token (PAT), memilih repository, lalu mengunggah file, folder, atau ZIP.
 
 Jika file yang diunggah berupa ZIP, aplikasi akan mengekstraknya langsung di browser dan mengunggah seluruh isi beserta struktur folder ke repository tujuan secara otomatis.
 
-Semua proses dilakukan langsung melalui **GitHub REST API**, sehingga tidak memerlukan server khusus maupun database.
+Semua proses dilakukan langsung melalui GitHub REST API sehingga tidak memerlukan server khusus maupun database.
 
 ---
 
@@ -88,32 +60,8 @@ Semua proses dilakukan langsung melalui **GitHub REST API**, sehingga tidak meme
 
 ## ⚙️ Cara Kerja
 
-```
-User
- │
- ▼
-Masukkan GitHub Personal Access Token
- │
- ▼
-Ambil daftar Repository
- │
- ▼
-Pilih Repository & Branch
- │
- ▼
-Upload File / Folder / ZIP
- │
- ▼
-ZIP diekstrak otomatis
- │
- ▼
-Semua file diproses
- │
- ▼
-Upload melalui GitHub REST API
- │
- ▼
-Commit berhasil
+```text
+User → Input GitHub Token → Pilih Repository & Branch → Upload File/Folder/ZIP → ZIP diekstrak → Upload via GitHub REST API → Commit berhasil
 ```
 
 ---
@@ -134,62 +82,13 @@ Commit berhasil
 
 ---
 
-## 📦 Upload ZIP
-
-Cukup upload file ZIP seperti:
-
-```
-Website.zip
-```
-
-Aplikasi akan secara otomatis:
-
-- Membaca isi ZIP
-- Mengekstrak seluruh file
-- Mempertahankan struktur folder
-- Mengupload seluruh file ke repository GitHub
-
-Tanpa perlu extract manual.
-
----
-
-## 📁 Contoh Struktur
-
-ZIP
-
-```
-Project.zip
-
-Project/
-├── app/
-├── components/
-├── public/
-├── package.json
-└── README.md
-```
-
-Repository
-
-```
-Repository
-
-├── app/
-├── components/
-├── public/
-├── package.json
-└── README.md
-```
-
----
-
 ## 🔒 Keamanan
 
-- Token tidak dikirim ke server aplikasi
-- Token hanya digunakan untuk request GitHub API
-- Penyimpanan lokal menggunakan IndexedDB
-- Tidak menggunakan database eksternal
-- Tidak mengumpulkan data pengguna
-- Semua komunikasi menggunakan HTTPS
+- Token tidak dikirim ke server aplikasi.
+- Token hanya digunakan untuk request ke GitHub REST API.
+- Penyimpanan lokal menggunakan IndexedDB.
+- Tidak menggunakan database eksternal.
+- Semua komunikasi menggunakan HTTPS.
 
 ---
 
@@ -197,25 +96,14 @@ Repository
 
 ```bash
 git clone https://github.com/sannnproject/GITHUB-UPLOADER.git
-```
-
-```bash
 cd GITHUB-UPLOADER
-```
-
-```bash
 npm install
-```
-
-```bash
 npm run dev
 ```
 
 ---
 
 ## 🌍 Deploy
-
-Project siap di-deploy ke:
 
 - Vercel
 - Netlify
@@ -225,96 +113,202 @@ Project siap di-deploy ke:
 
 ---
 
-## 📂 Struktur Project
-
-```
-app/
-components/
-hooks/
-lib/
-public/
-
-package.json
-next.config.ts
-tailwind.config.ts
-tsconfig.json
-README.md
-```
-
----
-
-## 💡 Kelebihan
-
-- Tidak perlu Git CLI
-- Tidak perlu Terminal
-- Tidak perlu extract ZIP
-- Upload lebih cepat
-- Struktur folder tetap
-- Mudah digunakan
-- Modern UI
-- Ringan
-- Cocok untuk pemula
-- 100% Browser Based
-
----
-
-## ❓ FAQ
-
-### Apakah harus install Git?
-
-Tidak.
-
-### Apakah harus extract ZIP?
-
-Tidak.
-
-### Apakah struktur folder tetap?
-
-Ya.
-
-### Apakah aman?
-
-Ya.
-
-### Apakah membutuhkan database?
-
-Tidak.
-
-### Apakah gratis?
-
-Ya.
-
----
-
-## 🗺️ Roadmap
-
-- Multi Account
-- Resume Upload
-- Drag & Drop Improvement
-- Repository Manager
-- Commit History
-- File Manager
-- Multi Branch Upload
-- GitHub Enterprise Support
-
----
-
 ## 🤝 Contributing
-
-Kontribusi selalu diterima.
 
 1. Fork repository
 2. Buat branch baru
-3. Lakukan perubahan
-4. Commit
-5. Push
-6. Buat Pull Request
+3. Commit perubahan
+4. Push
+5. Buat Pull Request
 
 ---
 
-## 📄 License
+## Table of Contents
 
-Project ini menggunakan lisensi **MIT License**.
+- [Overview](#-deskripsi)
+- [Features](#-fitur)
+- [How It Works](#️-cara-kerja)
+- [Tech Stack](#️-teknologi)
+- [Security](#-keamanan)
+- [Installation](#-instalasi)
+- [Deployment](#-deploy)
+- [Project Structure](#-struktur-project)
+- [FAQ](#-faq)
+- [Roadmap](#-roadmap)
+- [Contributing](#-contributing)
+- [License](#-license)
+- [Author](#-author)
+
+---
+
+## Project Structure
+
+Berikut adalah struktur utama project:
+
+```text
+.
+├── app/                # App Router (pages, layouts, routes)
+├── components/         # Reusable UI components
+├── hooks/              # Custom React Hooks
+├── lib/                # Utility & helper functions
+├── public/             # Static assets
+├── package.json
+├── next.config.ts
+├── tailwind.config.ts
+├── tsconfig.json
+└── README.md
+```
+
+> Struktur di atas merupakan struktur utama project. Isi setiap folder dapat berkembang sesuai kebutuhan pengembangan.
+
+---
+
+## Build & Deploy
+
+### Development
+
+```bash
+npm install
+npm run dev
+```
+
+### Production Build
+
+```bash
+npm run build
+```
+
+### Production
+
+```bash
+npm start
+```
+
+### Deploy to Vercel
+
+Project ini telah dikonfigurasi agar dapat langsung di-deploy ke Vercel tanpa konfigurasi tambahan.
+
+---
+
+## Requirements
+
+Pastikan lingkungan pengembangan memenuhi persyaratan berikut:
+
+- Node.js 20 atau lebih baru
+- npm / pnpm / bun
+- GitHub Personal Access Token (PAT)
+
+---
+
+## Browser Compatibility
+
+GitHub Uploader mendukung browser modern berikut:
+
+| Browser | Supported |
+|----------|:---------:|
+| Chrome | ✅ |
+| Edge | ✅ |
+| Firefox | ✅ |
+| Brave | ✅ |
+| Opera | ✅ |
+| Safari | ✅ |
+
+---
+
+## FAQ
+
+### Apakah harus menginstal Git?
+
+Tidak. Semua proses upload dilakukan langsung menggunakan GitHub REST API.
+
+### Apakah harus mengekstrak ZIP terlebih dahulu?
+
+Tidak. File ZIP akan diproses langsung di browser.
+
+### Apakah struktur folder akan tetap dipertahankan?
+
+Ya. Struktur folder akan tetap sama seperti file ZIP atau folder asli.
+
+### Apakah project ini membutuhkan database?
+
+Tidak.
+
+### Di mana GitHub Token disimpan?
+
+Token disimpan secara lokal menggunakan IndexedDB dan tidak dikirim ke server aplikasi.
+
+### Apakah project ini dapat digunakan secara gratis?
+
+Ya.
+
+### Apakah project ini dapat di-deploy ke Vercel?
+
+Ya.
+
+### Apakah project ini open source?
+
+Ya. Project ini menggunakan Apache License 2.0.
+
+---
+
+## Roadmap
+
+Fitur yang direncanakan untuk pengembangan berikutnya:
+
+- Repository Manager
+- Branch Manager
+- Repository Search
+- Multiple GitHub Account
+- Resume Upload
+- Parallel Upload
+- Upload Queue
+- Custom Commit Message
+- Better Error Reporting
+- Better Upload Progress
+- File Conflict Resolution
+- Drag & Drop Improvements
+- Upload Statistics
+- Theme Customization
+- Localization (i18n)
+- GitHub Enterprise Support
+- Performance Optimization
+- Accessibility Improvements
+
+---
+
+## Acknowledgements
+
+Project ini dibangun menggunakan berbagai teknologi open source:
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+- JSZip
+- React Dropzone
+- GitHub REST API
+- Vercel
+
+Project ini menggunakan **Apache-2.0 license**
+Lisensi ini mengizinkan siapa pun untuk menggunakan, memodifikasi, mendistribusikan, dan memanfaatkan project ini, termasuk untuk kebutuhan komersial, selama tetap mematuhi ketentuan Apache License 2.0.
+
+### Hak yang diberikan
+
+- Menggunakan project untuk keperluan pribadi maupun komersial.
+- Memodifikasi source code.
+- Mendistribusikan ulang project.
+- Membuat project turunan.
+- Memanfaatkan grant hak paten sesuai ketentuan lisensi.
+
+### Ketentuan
+
+- Wajib menyertakan file LICENSE.
+- Wajib mempertahankan copyright notice.
+- Wajib memberikan keterangan apabila melakukan perubahan.
+- Tidak boleh menggunakan nama pemilik project atau kontributor sebagai bentuk endorsement tanpa izin.
+
+Selengkapnya: https://www.apache.org/licenses/LICENSE-2.0
 
 ---
 
@@ -322,12 +316,14 @@ Project ini menggunakan lisensi **MIT License**.
 
 **SANN Project**
 
-Membangun berbagai tools open source modern untuk membantu developer, mempermudah deployment, dan meningkatkan produktivitas workflow pengembangan aplikasi.
+Membangun berbagai tools open source modern untuk membantu developer, mempermudah deployment, dan meningkatkan produktivitas workflow.
 
 ---
 
 <p align="center">
 
 ⭐ **Jangan lupa berikan Star jika project ini bermanfaat!**
+
+Made with ❤️ by **SANN Project**
 
 </p>
