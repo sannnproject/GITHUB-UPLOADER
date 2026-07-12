@@ -22,17 +22,6 @@
 
 **Upload file, folder, maupun ZIP langsung ke repository GitHub tanpa perlu Git CLI maupun extract ZIP secara manual.**
 
-![Open Source](https://img.shields.io/badge/Open%20Source-Yes-success?style=for-the-badge)
-![Responsive](https://img.shields.io/badge/Responsive-Mobile%20Friendly-blue?style=for-the-badge)
-![Dark Mode](https://img.shields.io/badge/Dark%20Mode-Supported-black?style=for-the-badge)
-![ZIP Upload](https://img.shields.io/badge/ZIP-Auto%20Extract-orange?style=for-the-badge)
-![Deploy Ready](https://img.shields.io/badge/Deploy-Ready-brightgreen?style=for-the-badge)
-![GitHub REST API](https://img.shields.io/badge/GitHub-REST%20API-181717?style=for-the-badge&logo=github)
-![No Database](https://img.shields.io/badge/Database-Not%20Required-blueviolet?style=for-the-badge)
-![Browser Storage](https://img.shields.io/badge/Storage-IndexedDB-4CAF50?style=for-the-badge)
-![Maintained](https://img.shields.io/badge/Maintained-Yes-success?style=for-the-badge)
-
-
 </p>
 
 ---
